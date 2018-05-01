@@ -1,3 +1,5 @@
+// Task url: https://codefights.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ/description 
+
 function shapeArea(n) {
     /* area : shapeArea 
        add: how many polygones we gonna add to the next iterartion
@@ -16,3 +18,5 @@ function shapeArea(n) {
 // function shapeArea(n) {
 //     return n * n + (n - 1) * (n - 1);
 //   }
+
+
