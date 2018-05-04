@@ -1,3 +1,5 @@
+/*Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array... Task-Url:https://codefights.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG/description*/
+
 var removed = 0;
 
 function almostIncreasingSequence(sequence) {
