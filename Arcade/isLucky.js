@@ -12,7 +12,7 @@ function isLucky(n) {
 //     var sum1 = sum2 = 0;
 //     var half = arr.length / 2;
 //     for (i = 0, j = half; i < half, j < arr.length; i++, j++) {
-//         sum1 += parseInt(arr[i]);
+//         sum1 += parseInt(arr[i]);    
 //         sum2 += parseInt(arr[j]);
 
 //     }
