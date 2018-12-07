@@ -1,13 +1,12 @@
-function arrayChange(series) {
-    var moves = 0;
-    
-    for (var i = 1; i < series.length; i++) {
-        if (series[i] <= series[i - 1]) {
-            diff = series[i - 1] - series[i] + 1;
-            series[i] += diff;
-            moves += diff;
+function arrayChange(inputArray) {
+    let min = 0;
+    for (i = 0; i < inputArray.length - 1; i++) {
+
+        while (inputArray[i] >= inputArray[i + 1]) {
+            min++;
+            inputArray[i + 1] += 1;
         }
+
     }
-    
-    return moves;
+    return min;
 }
